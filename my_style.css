@@ -1,5 +1,5 @@
 body {
-      font-size : 12 px;
+      font-size : 12px;
 }
   
 label {
@@ -9,13 +9,11 @@ label {
       float : left;
       letter-spacing: 1px;
       background-color: #FF4747;
-      background-image: linear-gradient (white, #D4EAD4);
-      transition : background-color 0.5s ;
-
+      box-shadow: 0 150px 5px white inset;
+      transition: box-shadow 0.5s;
 }
 
-:nth-child(2)
-	) {
+:nth-child(2) {
     border-width: 2px;
     border-style : dashed;
     border-color: blue;
