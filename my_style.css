@@ -8,7 +8,6 @@ label {
       margin : auto;
       float : left;
       letter-spacing: 1px;
-      background-color: #FF4747;
       box-shadow: 0 150px 5px white inset;
       transition: box-shadow 0.5s;
       transition: width 2s ease;
