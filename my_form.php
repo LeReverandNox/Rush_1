@@ -47,7 +47,7 @@
                 <input type="date" name="date_de_naissance" id="date_de_naissance" /> <!-- creer un champs de saisie de type date avec une saisie ../../.... ou sous forme de calendrier  -->
 
                 <br />
-                Vos hobbies ?<br />
+                <label for="hobbies" class="no_border">Hobbies : </label><br />
                 <label for="jeuxvideo">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
                 <br />
 
