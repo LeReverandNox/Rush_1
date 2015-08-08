@@ -17,7 +17,7 @@
                 <input type="radio" name="sexe" value="Femme" /> Femme <br /> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
 
                 <label for="civilite">Civilité : </label> <!-- civilité est le nom de l'étiquette du champs de saisie -->
-                <select class="civilitle" name="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment -->
+                <select class="civilitle" name="civilite" id="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment -->
                     <option value="m">M.</option>  <!-- la balise option nous donne les choix possible "M. Mme Mlle." -->
                     <option value="mme">Mme.</option>
                     <option value="mlle">Mlle.</option>
@@ -25,26 +25,26 @@
 
                 <br />
                 <label for="nom">Nom : </label>  <!--Label "Nom" est le nom de l'étiquette du champs de saisie  -->
-                <input type="text" name="nom" minlength=2 /> <!-- créer un champs de saisie de type text avec une zone de texte pour nom de l'élèment "nom" -->
+                <input type="text" name="nom" id="nom" minlength=2 /> <!-- créer un champs de saisie de type text avec une zone de texte pour nom de l'élèment "nom" -->
 
                 <br />
-                <label for="nom" class="blue_border">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
-                <input type="text" name="prenom" minlength=2 />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
+                <label for="prenom" class="blue_border">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
+                <input type="text" name="prenom" id="prenom" minlength=2 />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
 
                 <br />
                 <label for="email">Email : </label> <!-- label "email" sur l'étiquette du champs de saisie  -->
-                <input type="email" name="email" /> <!-- crée un champs de saisie de type email avec une saisie de d'adresse mail pour nom  de l'element "email" -->
+                <input type="email" name="email" id="email" /> <!-- crée un champs de saisie de type email avec une saisie de d'adresse mail pour nom  de l'element "email" -->
                 <br />
                 <label for="telephone">Telephone : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
-                <input type="tel" name="telephone" /> <!-- crée un champs de saisie de type tel avec une saisie par numéro (affiche sur smartphone le clavier numérique ) pour nom comme element "telephone" -->
+                <input type="tel" name="telephone" id="telephone" /> <!-- crée un champs de saisie de type tel avec une saisie par numéro (affiche sur smartphone le clavier numérique ) pour nom comme element "telephone" -->
 
                 <br />
                 <label for="website" class="blue_border">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
-                <input type="url" name="website" /> <!-- creer un champs de saisie de type url avec une saisie par url pour nom "website" -->
+                <input type="url" name="website" id="website" /> <!-- creer un champs de saisie de type url avec une saisie par url pour nom "website" -->
 
                 <br />
                 <label for="date_de_naissance">Date de naissance : </label> <!-- label "date de naissance" sur l'étiquette du champs de saisie -->
-                <input type="date" name="date_de_naissance" /> <!-- creer un champs de saisie de type date avec une saisie ../../.... ou sous forme de calendrier  -->
+                <input type="date" name="date_de_naissance" id="date_de_naissance" /> <!-- creer un champs de saisie de type date avec une saisie ../../.... ou sous forme de calendrier  -->
 
                 <br />
                 Vos hobbies ?<br />
