@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- indicateur qui permet au navigateur de savoir quelles règles appliquer pour la mise en page du document. --> 
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Rush 01 - Etape 01</title>
+        <title>Rush 01 - Etape 01</title> <!-- Titre -->
     </head>
     <body>
         <h1>Formulaire</h1>
