@@ -19,6 +19,15 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
 
 }
 
+.no_border{
+	display : block;
+	width: 150px;
+	margin: auto;
+	float: left;
+	letter-spacing: 1px;
+	margin-right: 14px;		
+}
+
 table {
 	border-style : solid;
 	border-color : black;
