@@ -48,19 +48,19 @@
 
                 <br />
                 Vos hobbies ?<br />
-                <label for="hobbies">Jeux video</label><input type="checkbox" name="hobbies" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
+                <label for="jeuxvideo">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
                 <br />
 
-                <label for="hobbies">Cinema</label><input type="checkbox" name="hobbies" value="cinema" />
+                <label for="cinema">Cinema</label><input type="checkbox" name="hobbies" id="cinema" value="cinema" />
                 <br />
 
-                <label for="hobbies">Lecture</label><input type="checkbox" name="hobbies" value="lecture" />
+                <label for="lecture">Lecture</label><input type="checkbox" name="hobbies" id="lecture" value="lecture" />
                 <br />
 
-                <label for="hobbies">Sport</label><input type="checkbox" name="hobbies" value="sport" />
+                <label for="sport">Sport</label><input type="checkbox" name="hobbies" id="sport" value="sport" />
                 <br />
 
-                <label for="hobbies">Informatique</label><input type="checkbox" name="hobbies" value="informatique" />
+                <label for="informatique">Informatique</label><input type="checkbox" name="hobbies" id="informatique" value="informatique" />
                 <br />
 
                 <br />
