@@ -7,9 +7,14 @@ body {
 }
 
 .blue_border {
+	display : block;
+	width: 150px;
+	margin: auto;
 	border-width : 2px;
 	border-style: dashed;
 	border-color : blue;
+	float: left;
+	letter-spacing: 1px;
 }
 
 .no_border{
