@@ -4,7 +4,7 @@ body {
   
 label {
       display : block;
-      max-width : 150px;
+      width : 150px;
       margin : auto;
       float : left;
       letter-spacing: 1px;
