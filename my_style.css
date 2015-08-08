@@ -2,19 +2,8 @@ body {
       font-size : 12px;
 }
   
-label.left {
-      display : block;
-      width : 150px;
-      margin : auto;
-      float : left;
-      letter-spacing: 1px;
-      box-shadow: 0 150px 5px white inset;
-      transition: box-shadow 0.5s;
-	  margin-right: 14px;
-}
-label.left:hover{
+.no_border, .blue_border:hover{
 	background-color: green;
-	box-shadow: 0 150px 5px #D4EAD4 inset;
 }
 
 .blue_border {
@@ -23,6 +12,14 @@ label.left:hover{
 	border-color : blue;
 }
 
+.no_border{
+	display : block;
+	width: 150px;
+	margin: auto;
+	float: left;
+	letter-spacing: 1px;
+	margin-right: 14px;
+}
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
 	width: 27%;
