@@ -11,18 +11,18 @@ label {
 
 }
 
-body:first-child {
+body label:first-child {
     border-width: 2px;
     border-style : dashed;
     border-color: blue;
 }
 
-body:nth-child(4) {
+body label:nth-child(4) {
 	border-width : 2px;
 	border-style: dashed;
 	border-color : blue;
 }
-body:nth-child(7) {
+body label:nth-child(7) {
 	border-width : 2px;
 	border-style: dashed;
 	border-color : blue;
