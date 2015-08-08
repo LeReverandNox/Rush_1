@@ -12,24 +12,24 @@
             <fieldset>
                 <legend>Formulaire</legend>
 
-                <label for="sexe">Sexe : </label>   <!-- c'est une étiquette donnée à un element dans ce cas l'étiquette à l'élèment est le "sexe" -->
-                <input type="radio" name="sexe" value="Homme" /> Homme   <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
+                <label for="sexe">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
+                <input type="radio" name="sexe" value="Homme" /> Homme    <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
                 <input type="radio" name="sexe" value="Femme" /> Femme <br /> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
 
-                <label for="civilite">Civilité : </label>
-                <select class="civilitle" name="civilite">
-                    <option value="m">M.</option>
+                <label for="civilite">Civilité : </label> <!-- civilité est le nom de l'étiquette du champs de saisie -->
+                <select class="civilitle" name="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment --> 
+                    <option value="m">M.</option>  <!-- la balise option nous donne les choix possible "M. Mme Mlle." -->
                     <option value="mme">Mme.</option>
                     <option value="mlle">Mlle.</option>
                 </select>
 
                 <br />
-                <label for="nom">Nom : </label>
-                <input type="text" name="nom" required minlength=2 />
+                <label for="nom">Nom : </label>  <!-- "Nom" est le nom de l'étiquette du champs de saisie  -->
+                <input type="text" name="nom" required minlength=2 /> <!-- créer un champs de saisie de type text avec une zone de texte pour nom de l'élèment "nom" -->
 
                 <br />
-                <label for="nom">Prenom : </label>
-                <input type="text" name="prenom" required minlength=2 />
+                <label for="nom">Prenom : </label> <!-- "Prénom sur l'étiquette du champs de saisie"-->
+                <input type="text" name="prenom" required minlength=2 />  <!-- creer un champs de saisie de type email avec une saisie d'un adresse mail pour nom de l'élèment prenom -->
 
                 <br />
                 <label for="email">Email : </label>
