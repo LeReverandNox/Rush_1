@@ -2,7 +2,7 @@ body {
       font-size : 12px;
 }
   
-label {
+label.left {
       display : block;
       width : 150px;
       margin : auto;
@@ -13,7 +13,7 @@ label {
 	  margin-right: 14px;
 }
 label:hover{
-	background-color: green;
+	background-color: gree;
 	box-shadow: 0 150px 5px #D4EAD4 inset;
 }
 
