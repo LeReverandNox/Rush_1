@@ -3,7 +3,7 @@ body {
 }
   
 .no_border, .blue_border:hover{
-	background-color: green;
+	background-color: #B5FFB5;
 }
 
 .blue_border {
