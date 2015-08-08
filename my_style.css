@@ -11,6 +11,12 @@ label {
       background-color: #FF4747;
       box-shadow: 0 150px 5px white inset;
       transition: box-shadow 0.5s;
+       transition: width 2s ease;
+}
+label:hover{
+	background-color: white;
+	box-shadow: 0 150px 5px #D4EAD4 inset;
+
 }
 
 :nth-child(2) {
