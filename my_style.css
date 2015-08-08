@@ -6,13 +6,12 @@ label {
       display : block;
       max-width : 150px;
       margin : auto;
-      float : right;
+      float : left;
       letter-spacing: 1px;
 
 }
 
-
-  :first-child{
+  :first-child {
     border-width: 2px;
     border-style : dashed;
     border-color: blue;
