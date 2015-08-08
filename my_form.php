@@ -11,7 +11,6 @@
                 <legend>Formulaire</legend>
 
                 <label for="sexe">Sexe : </label>
-                <br />
                 <input type="radio" name="sexe" value="Homme" /> Homme
                 <input type="radio" name="sexe" value="Femme" /> Femme <br />
 
@@ -48,11 +47,20 @@
 
                 <br />
                 Vos hobbies ?<br />
-                <input type="checkbox" name="hobbies" value="jeuxvideo" /><label for="hobbies">Jeux video</label>
-                <input type="checkbox" name="hobbies" value="cinema" /><label for="hobbies">Cinema</label>
-                <input type="checkbox" name="hobbies" value="lecture" /><label for="hobbies">Lecture</label>
-                <input type="checkbox" name="hobbies" value="sport" /><label for="hobbies">Sport</label>
-                <input type="checkbox" name="hobbies" value="informatique" /><label for="hobbies">Informatique</label>
+                <label for="hobbies">Jeux video</label><input type="checkbox" name="hobbies" value="jeuxvideo" />
+                <br />
+
+                <label for="hobbies">Cinema</label><input type="checkbox" name="hobbies" value="cinema" />
+                <br />
+
+                <label for="hobbies">Lecture</label><input type="checkbox" name="hobbies" value="lecture" />
+                <br />
+
+                <label for="hobbies">Sport</label><input type="checkbox" name="hobbies" value="sport" />
+                <br />
+
+                <label for="hobbies">Informatique</label><input type="checkbox" name="hobbies" value="informatique" />
+                <br />
 
                 <br />
                 <input type="hidden" name="token" value="my first website">
