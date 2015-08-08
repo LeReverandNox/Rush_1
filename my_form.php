@@ -8,10 +8,9 @@
         <title>Rush 01 - Etape 01</title> <!-- Titre -->
     </head>
     <body>
-        <form class="formulaire" action="my_form.php" method="post">  <!--"form" balise principal du formulaire, "method" est un attribut qui indique par quel moyen les données vont etre envoyé ? ; "Action"  c'est l'adresse de la page ou du programme qui va traiter les informations  --> 
+        <form class="formulaire" action="my_form.php" method="post">  <!--"form" balise principal du formulaire, "method" est un attribut qui indique par quel moyen les données vont etre envoyé ? ; "Action"  c'est l'adresse de la page ou du programme qui va traiter les informations  -->
             <fieldset>
                 <legend>Formulaire</legend>
->>>>>>> origin/master
 
                 <label for="sexe">Sexe : </label>   <!-- c'est une étiquette donnée à un element dans ce cas l'étiquette à l'élèment est le "sexe" -->
                 <input type="radio" name="sexe" value="Homme" /> Homme   <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
