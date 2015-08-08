@@ -8,12 +8,20 @@
         <h1>Formulaire</h1>
         <form class="formulaire" action="my_form.php" method="post">
             <label for="sexe">Sexe : </label>
-            <input type="radio" name="sexe" value="Homme" /> Homme <br />
+            <br />
+            <input type="radio" name="sexe" value="Homme" /> Homme
             <input type="radio" name="sexe" value="Femme" /> Femme <br />
 
             <label for="civilite">Civilité : </label>
-            <input type="select" name="civilite" value="">
+            <select class="civilitle" name="civilite">
+                <option value="M.">M.</option>
+                <option value="M.">Mme.</option>
+                <option value="M.">Mlle.</option>
+            </select>
 
+            <br />
+            <label for="nom">Nom : </label>
+            <input type="text" name="nom" minlength=2 />
             <br />
             <input type="submit" value="Envoyer">
         </form>
