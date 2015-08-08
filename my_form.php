@@ -12,12 +12,12 @@
             <fieldset>
                 <legend>Formulaire</legend>
 
-                <label for="sexe">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
+                 <label for="sexe" class="blue_border">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
                 <input type="radio" name="sexe" value="Homme" /> Homme    <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
                 <input type="radio" name="sexe" value="Femme" /> Femme <br /> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
 
                 <label for="civilite">Civilité : </label> <!-- civilité est le nom de l'étiquette du champs de saisie -->
-                <select class="civilitle" name="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment --> 
+                <select class="civilitle" name="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment -->
                     <option value="m">M.</option>  <!-- la balise option nous donne les choix possible "M. Mme Mlle." -->
                     <option value="mme">Mme.</option>
                     <option value="mlle">Mlle.</option>
@@ -28,7 +28,7 @@
                 <input type="text" name="nom" required minlength=2 /> <!-- créer un champs de saisie de type text avec une zone de texte pour nom de l'élèment "nom" -->
 
                 <br />
-                <label for="nom">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
+                <label for="nom" class="blue_border">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
                 <input type="text" name="prenom" required minlength=2 />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
 
                 <br />
@@ -39,7 +39,7 @@
                 <input type="tel" name="telephone" required/> <!-- crée un champs de saisie de type tel avec une saisie par numéro (affiche sur smartphone le clavier numérique ) pour nom comme element "telephone" -->
 
                 <br />
-                <label for="website">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
+                <label for="website" class="blue_border">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
                 <input type="url" name="website" required/> <!-- creer un champs de saisie de type url avec une saisie par url pour nom "website" -->
 
                 <br />
@@ -47,7 +47,7 @@
                 <input type="date" name="date_de_naissance" required /> <!-- creer un champs de saisie de type date avec une saisie ../../.... ou sous forme de calendrier  -->
 
                 <br />
-                Vos hobbies ?<br /> 
+                Vos hobbies ?<br />
                 <label for="hobbies">Jeux video</label><input type="checkbox" name="hobbies" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
                 <br />
 
@@ -70,5 +70,5 @@
                 <input type="submit" value="Validation"> <!-- cré un élèment de type submit transmet tout les informations contenue dans le formulaire url "action" <form> avec comme valeur "Validation" -->
             </fieldset>
         </form>
-    </body> 
+    </body>
 </html>
