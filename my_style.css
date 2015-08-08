@@ -3,38 +3,41 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
       font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
 }
 
+
 .no_border:hover, .blue_border:hover{ 		/* Les class sont indiqués en commancant par un point suivi du nom de la class. ":hover" va quant a lui lancer une petite animation lorsque le curseur de la souris survolera les class en question*/
 
-	background-color: #B5FFB5; /*Background-color changera le fond de la class et on lui donnera un code couleur ou le nom de la couleur en anglais directement */
+	background-color: #B5FFB5;	 /*Background-color changera le fond de la class et on lui donnera un code couleur ou le nom de la couleur en anglais directement */
 }
 
-.blue_border {
-	display : block;		/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
-	width: 150px; 			/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
-	margin: auto ;			/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
-	border-width : 2px;		/*Border gère les bordures générer dans les textes ou blocs, witdh détermine la largeur de la bordure*/
-	border-style: dashed; 	/*Border-style permet de changer le style de la bordure, elle peut être en continue avec le solid ou en pointillés avec le dashed il existe d'autres valeurs de style*/
-	border-color : blue;	/*border-color changera la couleur de la bordure*/
-	float: left;			/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
-	letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
+ 
+#Homme {
+	border : 2px dashed blue;
+	display : inline;
+	width:150px;
+}
 
+.Prenom {
+	border: 3px dashed blue;
+	display: inline;
+	width:150px;
+	padding: 5px;
+}
 
+.Site_web {
+	border: 3px dashed blue;
+	padding: 5px;
+	display: inline;
+	width:150px;
 }
 
 .no_border{
-	display : block;
-	width: 150px;
-	margin: auto;
-	float: left;
-	letter-spacing: 1px;
-	margin-right: 4px;
+	display : block;		/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
+	width: 150px; 			/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
+	margin: auto;  			/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
+	float: left;			/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
+	letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
 }
 
-table {
-	border-style : solid;
-	border-color : black;
-	border-width: 2px;
-}
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
 	width: 27%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
