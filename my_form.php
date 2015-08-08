@@ -1,7 +1,8 @@
 <!DOCTYPE html> <!-- indicateur qui permet au navigateur de savoir quelles règles appliquer pour la mise en page du document. -->
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="my_style.css" />
         <title>Rush 01 - Etape 01</title> <!-- Titre -->
     </head>
     <body>
