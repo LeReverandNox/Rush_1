@@ -49,23 +49,17 @@
                 <br />
                 <label for="hobbies" class="no_border">Hobbies : </label><br />
                 <label for="jeuxvideo">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
-                <br />
 
                 <label for="cinema" class="right" >Cinema</label><input type="checkbox" name="hobbies" id="cinema" value="cinema" />
-                <br />
 
                 <label for="lecture" class="right" >Lecture</label><input type="checkbox" name="hobbies" id="lecture" value="lecture" />
-                <br />
 
                 <label for="sport" class="right" >Sport</label><input type="checkbox" name="hobbies" id="sport" value="sport" />
-                <br />
 
                 <label for="informatique" class="right" >Informatique</label><input type="checkbox" name="hobbies" id="informatique" value="informatique" />
-                <br />
 
-                <br />
                 <input type="hidden" name="token" value="my first website">   <!-- crée un champs de saisie de type hidden champs de saisie  caché dans le formulaire avec comme valeur donnée  "my first website" -->
-
+                <br />
                 <br />
                 <input type="submit" value="Validation"> <!-- cré un élèment de type submit transmet tout les informations contenue dans le formulaire url "action" <form> avec comme valeur "Validation" -->
             </fieldset>
