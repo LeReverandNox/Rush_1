@@ -10,10 +10,10 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
 .blue_border {
 	display : block;	/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
 	width: 150px; 		/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
-	margin: auto ;		/*Margin gère les marges extérieures */
-	border-width : 2px;
-	border-style: dashed;
-	border-color : blue;
+	margin: auto ;		/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
+	border-width : 2px;		/*Border gère les bordures générer dans les textes ou blocs, witdh détermine la largeur de la bordure*/
+	border-style: dashed; 	/*Border-style permet de changer le style de la bordure, elle peut être en continue avec le solid ou en pointillés avec le dashed il existe d'autres valeurs de style*/ 
+	border-color : blue;	
 	float: left;
 	letter-spacing: 1px;
 
