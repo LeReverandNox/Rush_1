@@ -1,15 +1,16 @@
-body {
-      font-size : 12px;
+body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */			
+      font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
 }
   
-.no_border:hover, .blue_border:hover{
-	background-color: #B5FFB5;
+.no_border:hover, .blue_border:hover{ 		/* Les class sont indiqués en commancant par un point suivi du nom de la class. ":hover" va quant a lui lancer une petite animation lorsque le curseur de la souris survolera les class en question*/
+
+	background-color: #B5FFB5; /*Background-color changera le fond de la class et on lui donnera un code couleur ou le nom de la couleur en anglais directement */
 }
 
 .blue_border {
-	display : block;
-	width: 150px;
-	margin: auto ;
+	display : block;	/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
+	width: 150px; 		/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
+	margin: auto ;		/*Margin gère les marges extérieures */
 	border-width : 2px;
 	border-style: dashed;
 	border-color : blue;
@@ -18,13 +19,10 @@ body {
 
 }
 
-.no_border{
-	display : block;
-	width: 150px;
-	margin: auto;
-	float: left;
-	letter-spacing: 1px;
-	margin-right: 4px;
+table {
+	border-style : solid;
+	border-color : black;
+	border-width: 2px;
 }
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
