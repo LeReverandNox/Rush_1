@@ -4,7 +4,7 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
 }
 
 
-.no_border:hover, .blue_border:hover { 		/* Les class sont indiqués en commancant par un point suivi du nom de la class. ":hover" va quant a lui lancer une petite animation lorsque le curseur de la souris survolera les class en question*/
+input:hover { 		/* Les class sont indiqués en commancant par un point suivi du nom de la class. ":hover" va quant a lui lancer une petite animation lorsque le curseur de la souris survolera les class en question*/
 
 	background-color: #B5FFB5;	 /*Background-color changera le fond de la class et on lui donnera un code couleur ou le nom de la couleur en anglais directement */
 }
