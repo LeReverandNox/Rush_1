@@ -1,8 +1,16 @@
 
+
+
+
 body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
       font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
       letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
       padding-top: 15px;
+      background-image:url("font.jpg");
+      color:#ffffff;
+      font-family:Arial;
+
+
 }
 
 fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
@@ -15,9 +23,11 @@ fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permet
 }
 
 input {
-	box-shadow: 5px 5px 2px grey;
 	border-radius: 5px;
 }
+
+legend {font-size:17px;}
+
 
 .blue_border{
 	border : 2px dotted blue;
@@ -42,19 +52,52 @@ input {
 }
 
 input[type="submit"] {
-	border: #DDEEFF 1px solid;
-	width: 50%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
-	box-shadow : 5px 0px 6px black ;	/*Le box-shadow permet de générer une ombre sur la bordure, on modifie le (x, y , la nuance et la couleur de l'ombre)*/
-	border-radius : 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
-	margin-left: 120px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+    background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+    background-color:#ffffff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:2px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-weight:bold;
+    padding:1px 28px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    margin-left: 180px;
 }
+
+
 
  input[type="submit"]:hover {
- 	background-color:#B5FFB5;
- 	box-shadow: 0 5px 6px #5CEFEF inset;
+     background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+     	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+     	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+     	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+     	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+     	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+     	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+     	background-color:#f6f6f6;
+}
+
+ input[type="submit"]:active {
+
+     position:relative;
+	top:1px;
  }
 
-input:hover { 					 /*Input correspond à créer des contrôles interactifs pour l'utilisateur dans les formulaires WEB*/
-
-	background-color: #B5FFB5;	 /*Background-color changera le fond de l'élément ciblé  et on lui donnera un code couleur ou le nom de la couleur*/
+input:hover  {/*Input correspond à créer des contrôles interactifs pour l'utilisateur dans les formulaires WEB*/
+background-color : yellow;
 }
+
