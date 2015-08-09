@@ -33,14 +33,14 @@ select {
 }
 
 .Prenom {
-	border: 3px dashed blue;
+	border: 2px dashed blue;
 	display: inline;
 	width:150px;
 	padding: 5px;				/*Contrairement au margin, padding gère les marges intérieures de l'élément*/
 }
 
 .Site_web {
-	border: 3px dashed blue;
+	border: 2px dashed blue;
 	padding: 5px;
 	display: inline;
 	width:150px;
