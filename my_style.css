@@ -57,5 +57,5 @@ input[type="submit"] {
 }
  input[type="submit"]:hover {
  	background-color:#B5FFB5;
- 	box-shadow: 0 5px 6px #D4EAD4 inset;
+ 	box-shadow: 0 5px 6px #5CEFEF inset;
  }
