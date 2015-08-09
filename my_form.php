@@ -53,7 +53,7 @@
                 <input type="email" name="email" id="email" /> <!-- crée un champs de saisie de type email avec une saisie de d'adresse mail pour nom  de l'element "email" -->
                 <br /><br />
 
-                <label for="telephone" class="no_border">Telephone : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
+                <label for="telephone" class="blue_border">Telephone : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
                 <input type="tel" name="telephone" id="telephone" /> <!-- crée un champs de saisie de type tel avec une saisie par numéro (affiche sur smartphone le clavier numérique ) pour nom comme element "telephone" -->
 
                 <br /><br />
@@ -62,7 +62,7 @@
             <fieldset>
                 <legend>Autres</legend>
 
-                <label for="website" class="blue_border">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
+                <label for="website" class="no_border">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
             <div class="Site_web">
                 <input type="url" name="website" id="website" /> <!-- creer un champs de saisie de type url avec une saisie par url pour nom "website" -->
             </div>
