@@ -3,9 +3,12 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
       font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
 }
  
-fieldset {
-	margin-right: 55%;
+fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
+	margin-right: auto;
+	margin-left:auto;
+	width : 500px;
 }
+
 
 #Homme {
 	border : 2px dotted blue;	/*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/
@@ -13,7 +16,7 @@ fieldset {
 	width:150px;				/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
 }
 
-.align {
+.no_border {
 	display : block;				
 	width: 150px; 					
 	margin: auto 8px auto auto;  	/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
@@ -26,25 +29,19 @@ fieldset {
 	width: 150px; 			
 	float: left;			
 	letter-spacing: 1px;
+	margin-left: 8px
 }
 
 select {
 	margin-left: 8px;			
 }
 
-.Prenom {
-	border: 2px dotted blue;
+div {
+	border : 2px, dotted blue;
 	display: inline;
-	width:150px;
-	padding: 5px;				/*Contrairement au margin, padding gère les marges intérieures de l'élément*/
+	width : 150px;
 }
 
-.Site_web {
-	border: 2px dotted blue;
-	padding: 5px;
-	display: inline;
-	width:150px;
-}
 
 .right {
 	margin-left: 15px;
@@ -52,10 +49,10 @@ select {
 
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
-	width: 45%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
+	width: 50%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
 	box-shadow : 5px 0px 6px black ;	/*Le box-shadow permet de générer une ombre sur la bordure, on modifie le (x, y , la nuance et la couleur de l'ombre)*/
 	border-radius : 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
-	margin-left: 100px;
+	margin-left: 120px;
 }
  input[type="submit"]:hover {
  	background-color:#B5FFB5;
