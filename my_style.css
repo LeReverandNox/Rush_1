@@ -2,31 +2,32 @@
 body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
       font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
       letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
-      padding-top: 15px;
+      padding-top: 15px;	/*Contrairement à margin qui s'occupe des marges extérieures de l'élément, Padding gère les marges intérieures de l'élément*/
 }
 
 fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
-	margin-right: auto;
+	margin-right: auto;			/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
 	margin-left:auto;
-	width : 500px;
+	width : 500px;				/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
     margin-top:10px;
     padding-top:10px;
     padding-bottom: 10px;
 }
 
 input {
-	box-shadow: 5px 5px 2px grey;
-	border-radius: 5px;
+	box-shadow: 5px 5px 2px grey;	/*Le box-shadow permet de générer une ombre sur la bordure, on modifie le (x, y , la nuance et la couleur directionde l'ombre)*/
+	border-radius: 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
+	margin-left: 120px;
+}							
+
+.blue_border{						/*La class blue_border gère la bordure des 3 champs */
+	border : 2px dotted blue;		/*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/
 }
 
-.blue_border{
-	border : 2px dotted blue;
-}
-
-.border {
-	display : block;
+.border {							/*la class border génère tous les champs afin de les aligner à leur label*/
+	display : block;				/*Display permet d'indiquer le mode de rendu d'un élément html, les éléments en type inline ne peuvent contenir que des éléments de type inline et du texte*/
 	width: 150px;
-	margin: auto auto auto 8px;  	/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
+	margin: auto auto auto 8px;  	
 	float: left;					/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
 
 }
@@ -36,16 +37,16 @@ input {
 }
 
 #sexe {
-	border : 2px dotted blue;	/*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/
-	display : inline;			/*Display permet d'indiquer le mode de rendu d'un élément html, les éléments en type inline ne peuvent contenir que des éléments de type inline et du texte*/
-	width:150px;				/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
+	border : 2px dotted blue;	
+	display : inline;			
+	width:150px;				
 }
 
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
-	width: 50%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
-	box-shadow : 5px 0px 6px black ;	/*Le box-shadow permet de générer une ombre sur la bordure, on modifie le (x, y , la nuance et la couleur de l'ombre)*/
-	border-radius : 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
+	width: 50%;							/*Le % du  width est déterminé par le width du premier parent ayant une position relative*/
+	box-shadow : 5px 0px 6px black ;	
+	border-radius : 5px;					
 	margin-left: 120px;
 }
 
