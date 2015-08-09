@@ -29,16 +29,21 @@ fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permet
 	width: 150px; 			
 	float: left;			
 	letter-spacing: 1px;
-	margin-left: 8px
+	margin-left: 8px;
+}
+
+#prenom{
+	border : 2px dotted blue;
+}
+
+#telephone {
+	border : 2px dotted blue;
 }
 
 select {
 	margin-left: 8px;			
 }
 
-.right {
-	margin-left: 15px;
-}
 
 input[type="submit"] {
 	border: #DDEEFF 1px solid;

@@ -20,7 +20,7 @@
             </div>
 
                 <label for="civilite" class="blue_border">Civilité : </label> <!-- civilité est le nom de l'étiquette du champs de saisie -->
-                <select class="civilitle" name="civilite" id="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment -->
+                <select class="civilite" name="civilite" id="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment -->
                     <option value="m">M.</option>  <!-- la balise option nous donne les choix possible "M. Mme Mlle." -->
                     <option value="mme">Mme.</option>
                     <option value="mlle">Mlle.</option>
