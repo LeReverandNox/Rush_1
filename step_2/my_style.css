@@ -1,25 +1,25 @@
-
-
-
-
-body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
-      font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
-      letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
+body { 		                           /* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
+      font-size : 12px;		           /*Font-size nous permet de modifier la police de caractère*/
+      letter-spacing: 1px;	           /*Letter-spacing détermine l'espace entre les caractères*/
       padding-top: 15px;
       background-image:url("font.jpg");
       color:#ffffff;
-      font-family:Arial;
+      font-family: cursive;
 
 
 }
 
-fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
+fieldset {					/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
 	margin-right: auto;
 	margin-left:auto;
 	width : 500px;
     margin-top:10px;
     padding-top:10px;
     padding-bottom: 10px;
+}
+
+#civilite {
+    width : 58px
 }
 
 input {
