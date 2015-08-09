@@ -7,7 +7,7 @@
         <title>Bienvenue sur le navigateur !</title>
     </head>
     <body>
-        <h2 id="texte1">Mange mon navigateur</h2>
-        <p id="texte2">Hello World !</p>
+        <h2 id="texte1">Bravo, vous êtes à présent connecté</h2>
+        <p id="texte2">Hello World :)</p>
     </body>
 </html>
