@@ -3,7 +3,7 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
       font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
       letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
 }
- 
+
 fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
 	margin-right: auto;
 	margin-left:auto;
@@ -15,12 +15,16 @@ input {
 	border-radius: 5px;
 }
 
+.blue_border{
+	border : 2px dotted blue;
+}
+
 .border {
-	display : block;				
-	width: 150px; 					
+	display : block;
+	width: 150px;
 	margin: auto auto auto 8px;  	/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
 	float: left;					/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
-				
+
 }
 
 .right {
@@ -32,9 +36,6 @@ input {
 	display : inline;			/*Display permet d'indiquer le mode de rendu d'un élément html, les éléments en type inline ne peuvent contenir que des éléments de type inline et du texte*/
 	width:150px;				/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
 }
-#blue_border{
-	border : 2px dotted blue;
-}
 
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
@@ -43,6 +44,7 @@ input[type="submit"] {
 	border-radius : 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
 	margin-left: 120px;
 }
+
  input[type="submit"]:hover {
  	background-color:#B5FFB5;
  	box-shadow: 0 5px 6px #5CEFEF inset;
