@@ -9,6 +9,13 @@ fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permet
 	width : 500px;
 }
 
+input {
+	box-shadow: 5px 5px 2px grey;
+}
+
+.right {
+	margin-left: 25px;
+}
 
 #Homme {
 	border : 2px dotted blue;	/*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/

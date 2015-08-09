@@ -70,7 +70,7 @@
                 
                
                 <label for="hobbies" class="no_border">Hobbies : </label><br />
-                <label for="jeuxvideo">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
+                <label for="jeuxvideo"class="right">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
 
                 <label for="cinema" class="right" >Cinema</label><input type="checkbox" name="hobbies" id="cinema" value="cinema" />
 
