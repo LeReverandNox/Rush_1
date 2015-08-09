@@ -5,7 +5,7 @@
 
         <meta charset="utf-8" />    <!-- meta (=métadonnée) c'est une donnée servant à définir ou décrire une autre donnée quel que soit son support(pour notre cas une page HTML). charset encodage déclaré avec la norme et utf-8(=Universal Character Set - 8 bits ) codage informatique pour gérer le plus simplement possible des textes et leurs traductions dans tous les systèmes d’écritures et tous les alphabets du monde.   -->
         <link rel="stylesheet" href="my_style.css" />
-        <title>Rush 01 - Etape 01</title> <!-- Titre -->
+        <title>Rush 01 - Etape 02</title> <!-- Titre -->
     </head>
     <body>
         <form class="formulaire" action="my_form.php" method="post">  <!--"form" balise principal du formulaire, "method" est un attribut qui indique par quel moyen les données vont etre envoyé ? ; "Action"  c'est l'adresse de la page ou du programme qui va traiter les informations  -->
