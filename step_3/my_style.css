@@ -4,7 +4,7 @@ html { 		                     /* Indicateur qui nous indique sur quelle partie d
       padding-top: 15px;       /*Le padding contrôle la marge intérieure de l'élément*/
       background-image:url("font.jpg");   /*Background-image importe des images via des url soit des images*/
       color:#ffffff;            
-      background-size: cover;  /*Le background-size dimensionne l'arrière plan */
+      background-size: 100% ;  /*Le background-size dimensionne l'arrière plan */
       font-family: cursive;    /*Modifie la police de caractère*/
 }
 

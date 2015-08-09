@@ -11,7 +11,7 @@
             <legend>Connexion</legend>
         <h1>Veuillez vous connecter :</h1>
         <form name="formulaire" id="formulaire" action="process.php" method="post">
-            <p><label for="username">Username : </label><input type="text" name="username" id="username" /></p>
+            <p><label for="username" >Username :  </label><input type="text" id="username" name="username" /></p>
             <p></p><label for="password">Password : </label><input type="password" name="password" id="password" /></p>
             <input type="submit" value="Connexion"/>
         </fieldset>

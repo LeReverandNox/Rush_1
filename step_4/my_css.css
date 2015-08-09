@@ -5,18 +5,78 @@ html {
  	font-family: cursive;
  	background-image:url("font.jpg");
 	color:#ffffff; 
-	background-size: cover;	
+	background-size: 100%	
 }
 
 fieldset {
 	margin-right: auto;         
-	margin-left:auto;
-	width : 400px;               
-    margin-top:10px;
+	margin-left:auto;               
+    margin-top:150px;
+    width : 400px;
     padding-top:10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+
 }
 
 h1 {
 	margin-left: 50px;
+}
+
+label {                      
+	display : block;
+	width: 150px;
+	margin-left : 15px;  	
+	float: left;	
+}
+
+legend {
+	font-size: 18px;
+}			
+
+#texte1 {
+	position: absolute;
+	top: 40%;
+	left:34%;
+}
+
+#texte2 {
+	position: absolute;
+	top: 45%;
+	left: 44%;
+	font-size: 14px
+}
+
+#username {
+	background: url(pics_01.png) no-repeat;
+	background-color: white;
+	padding-left: 25px;
+	padding-top: 4px;
+}
+
+#password {
+	background: url(pics_02.png) no-repeat;
+	background-color: white;
+	padding-left: 25px;
+	padding-top:4px;
+
+}
+input[type="text"]:hover, input[type="password"]:hover {
+	box-shadow: 0px 0px 3px 2px white;
+	box-shadow: 0px 0px 3px 2px white;
+	border : 2px solid black;
+}
+
+input[type="submit"]:hover {                                          
+     	background:linear-gradient(to bottom, #f6f6f6 5%, #B0B0B0 100%);
+     	background-color:#f6f6f6;
+}
+
+ input[type="submit"]:active {                                          
+	    top:1px;       
+}
+
+input[type="submit"] {
+	margin-top:10px;
+	margin-left:228px;
+	width :135px;
 }
