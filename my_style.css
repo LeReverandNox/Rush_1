@@ -2,14 +2,11 @@
 body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
       font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
 }
-
-
-input:hover { 					 /*Input correspond à créer des contrôles interactifs pour l'utilisateur dans les formulaires WEB*/
-
-	background-color: #B5FFB5;	 /*Background-color changera le fond de l'élément ciblé  et on lui donnera un code couleur ou le nom de la couleur*/
+ 
+fieldset {
+	margin-right: 300px;
 }
 
- 
 #Homme {
 	border : 2px dashed blue;	/*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/
 	display : inline;			/*Display permet d'indiquer le mode de rendu d'un élément html, les éléments en type inline ne peuvent contenir que des éléments de type inline et du texte*/
@@ -49,13 +46,23 @@ select {
 	width:150px;
 }
 
+.right {
+	margin-left: 15px;
+}
+
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
-	width: 15%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
+	width: 50%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
 	box-shadow : 5px 0px 6px black ;	/*Le box-shadow permet de générer une ombre sur la bordure, on modifie le (x, y , la nuance et la couleur de l'ombre)*/
 	border-radius : 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
+	margin-left: 100px;
 }
  input[type="submit"]:hover {
  	background-color:#B5FFB5;
  	box-shadow: 0 5px 6px #5CEFEF inset;
  }
+
+input:hover { 					 /*Input correspond à créer des contrôles interactifs pour l'utilisateur dans les formulaires WEB*/
+
+	background-color: #B5FFB5;	 /*Background-color changera le fond de l'élément ciblé  et on lui donnera un code couleur ou le nom de la couleur*/
+}

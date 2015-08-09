@@ -14,8 +14,8 @@
 
                 <label for="sexe" class="blue_border">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
             <div id="Homme">
-                <input type="radio" name="sexe" id="homme" class="right" value="Homme" checked /><label for="homme">Homme</label> <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
-                <input type="radio" name="sexe" id="femme" class="right" value="Femme" /><label for="femme">Femme</label> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
+                <input type="radio" name="sexe" id="homme" class="sexe" value="Homme" checked /><label for="homme">Homme</label> <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
+                <input type="radio" name="sexe" id="femme" class="sexe" value="Femme" /><label for="femme">Femme</label> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
                 <br /><br />
             </div>
                 
