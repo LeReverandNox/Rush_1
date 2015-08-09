@@ -51,7 +51,7 @@ select {
 
 input[type="submit"] {
 	border: #DDEEFF 1px solid;
-	width: 27%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
+	width: 15%;							/*Le % du width est déterminé par le width du premier parent ayant une position relative*/
 	box-shadow : 5px 0px 6px black ;	/*Le box-shadow permet de générer une ombre sur la bordure, on modifie le (x, y , la nuance et la couleur de l'ombre)*/
 	border-radius : 5px;				/*Le border-radius nous sert à arrondir les coins des bordures*/
 }
