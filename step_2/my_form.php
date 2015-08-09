@@ -13,7 +13,7 @@
             <fieldset>
                 <legend>Informations Personnelles</legend>
 
-                <label for="sexe" class="border">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
+                <label class="border">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
             <div id="sexe">
                 <input type="radio" name="sexe" id="homme"  value="Homme" checked /><label for="homme">Homme</label> <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
                 <input type="radio" name="sexe" id="femme"  value="Femme" /><label for="femme">Femme</label> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
@@ -30,14 +30,14 @@
                 <br /><br />
 
                 <label for="nom" class="border">Nom : </label>  <!--Label "Nom" est le nom de l'étiquette du champs de saisie  -->
-                <input type="text" name="nom" id="nom" minlength=2 placeholder="Van Damme" /> <!-- créer un champs de saisie de type text avec une zone de texte pour nom de l'élèment "nom" -->
+                <input type="text" name="nom" id="nom"  placeholder="Van Damme" /> <!-- créer un champs de saisie de type text avee zone de texte pour nom de l'élèment "nom" -->
 
                 <br /><br />
 
 
                 <label for="prenom" class="border">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
             <div>
-               <input type="text" name="prenom" id="prenom" class="blue_border"  minlength=2 placeholder="Magloire" />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
+               <input type="text" name="prenom" id="prenom" class="blue_border"   placeholder="Magloire" />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
             </div>
                 <br /><br />
 
@@ -70,8 +70,8 @@
                 <br /><br />
 
 
-                <label for="hobbies" class="border">Hobbies : </label><br />
-                <label for="jeuxvideo"class="right">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
+                <label class="border">Hobbies : </label><br />
+                <label for="jeuxvideo" class="right">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
 
                 <label for="cinema" class="right" >Cinema</label><input type="checkbox" name="hobbies" id="cinema" value="cinema" />
 
