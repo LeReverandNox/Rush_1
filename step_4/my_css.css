@@ -33,6 +33,13 @@ legend {
 	font-size: 18px;
 }			
 
+#resultat {
+	font-size: 16px;
+	color:#990000;
+	margin-top: 20px;
+
+}
+
 #texte1 {
 	position: absolute;
 	top: 40%;
@@ -71,12 +78,12 @@ input[type="submit"]:hover {
      	background-color:#f6f6f6;
 }
 
- input[type="submit"]:active {                                          
+input[type="submit"]:active {                                          
 	    top:1px;       
 }
 
 input[type="submit"] {
-	margin-top:10px;
+	margin-top:40px;
 	margin-left:228px;
 	width :135px;
 }
