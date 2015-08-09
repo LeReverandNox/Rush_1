@@ -4,7 +4,7 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
 }
 
 
-.no_border:hover, .blue_border:hover{ 		/* Les class sont indiqués en commancant par un point suivi du nom de la class. ":hover" va quant a lui lancer une petite animation lorsque le curseur de la souris survolera les class en question*/
+.no_border:hover, .blue_border:hover { 		/* Les class sont indiqués en commancant par un point suivi du nom de la class. ":hover" va quant a lui lancer une petite animation lorsque le curseur de la souris survolera les class en question*/
 
 	background-color: #B5FFB5;	 /*Background-color changera le fond de la class et on lui donnera un code couleur ou le nom de la couleur en anglais directement */
 }
@@ -14,6 +14,25 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
 	border : 2px dashed blue;
 	display : inline;
 	width:150px;
+}
+
+.align {
+	display : block;		/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
+	width: 150px; 			/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
+	margin: auto 8px auto auto;  			/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
+	float: left;			/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
+	letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
+}
+
+.blue_border {
+	display : block;		/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
+	width: 150px; 			/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
+	float: left;			/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
+	letter-spacing: 1px;
+}
+
+select {
+	margin-left: 8px;
 }
 
 .Prenom {
@@ -28,14 +47,6 @@ body { 		/* Indicateur qui nous indique sur quelle partie du html nous allons la
 	padding: 5px;
 	display: inline;
 	width:150px;
-}
-
-.no_border{
-	display : block;		/* Display controle la mise en page du code ces valeurs par défaut sont block ou inline.*/
-	width: 150px; 			/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
-	margin: auto;  			/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
-	float: left;			/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
-	letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
 }
 
 input[type="submit"] {
