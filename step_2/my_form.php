@@ -8,7 +8,6 @@
         <title>Rush 01 - Etape 01</title> <!-- Titre -->
     </head>
     <body>
-
         <form class="formulaire" action="my_form.php" method="post">  <!--"form" balise principal du formulaire, "method" est un attribut qui indique par quel moyen les données vont etre envoyé ? ; "Action"  c'est l'adresse de la page ou du programme qui va traiter les informations  -->
             <fieldset>
                 <legend>Informations Personnelles</legend>
