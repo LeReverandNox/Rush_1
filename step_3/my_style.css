@@ -2,45 +2,43 @@
 
 
 
-html { 		/* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
-      font-size : 12px;		/*Font-size nous permet de modifier la police de caractère*/
-      letter-spacing: 1px;	/*Letter-spacing détermine l'espace entre les caractères*/
-      padding-top: 15px;
-      background-image:url("font.jpg");
-      color:#ffffff;
-      background-color: white;
-      background-size: cover;
-      font-family: cursive;
-
-
-
+html { 		                     /* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
+      font-size : 12px;		     /*Font-size nous permet de modifier la police de caractère*/
+      letter-spacing: 1px;     /*Letter-spacing détermine l'espace entre les caractères*/
+      padding-top: 15px;       /*Le padding contrôle la marge intérieure de l'élément*/
+      background-image:url("font.jpg");   /*Background-image importe des images via des url soit des images*/
+      color:#ffffff;            
+      background-size: cover;  /*Le background-size dimensionne l'arrière plan */
+      font-family: cursive;    /*Modifie la police de caractère*/
 }
 
-fieldset {						/*Le fieldset va premettre de crée un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
-	margin-right: auto;
+fieldset {						         /*Le fieldset va permettre de créer un formulaire et le % permettra de s'adapter à la taille de la fenêtre*/
+	margin-right: auto;          /*Margin gère les marges extérieures de l'élément (haut, droite, bas, gauche)*/
 	margin-left:auto;
-	width : 500px;
+	width : 500px;               /*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
     margin-top:10px;
     padding-top:10px;
     padding-bottom: 10px;
 }
 
-#civilite {
+#civilite {                    
     width : 58px;
 }
 
-legend {font-size:17px;}
-
-
-.blue_border{
-	border : 2px dotted blue;
+legend {
+  font-size:17px;
 }
 
-.border {
+
+.blue_border{                  /*La class blue_border va mettre en place les bordure sur les champs*/
+	border : 2px dotted blue;    /*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/
+}
+
+.border {                      /*La class border va s'occuper des autres champs et ainsi les aligner avec leurs labels*/
 	display : block;
 	width: 150px;
-	margin: auto auto auto 8px;  	/*Margin gère les marges extérieures (haut, droite, bas, gauche)*/
-	float: left;					/*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
+	margin: auto auto auto 8px;  	
+	float: left;					       /*Float spécifie à un élément qu'il doit être retiré du flux normal et qu'il doit soit se placer à droite ou à gauche*/
 
 }
 
@@ -48,48 +46,37 @@ legend {font-size:17px;}
 	margin-left: 18px;
 }
 
-#img {
-    max-width: 100%;
-height: auto;
-box-sizing: border-box;
-
-}
-
 #sexe {
-	border : 2px dotted blue;	/*Border permet de crée une bordure autour de texte ou de blocs afin le mettre en relief*/
-	display : inline;			/*Display permet d'indiquer le mode de rendu d'un élément html, les éléments en type inline ne peuvent contenir que des éléments de type inline et du texte*/
-	width:150px;				/*Width permet de spécifier la largeur d'un élément celui des labels pour cette occasion*/
+	border : 2px dotted blue;	
+	display : inline;			       /*Display permet d'indiquer le mode de rendu d'un élément html, les éléments en type inline ne peuvent contenir que des éléments de type inline et du texte*/
+	width:150px;				
 }
 
-input[type="submit"] {
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+input[type="submit"] {                                                  /*Input correspond à créer des contrôles interactifs pour l'utilisateur dans les formulaires WEB*/
+    box-shadow:inset 0px 1px 0px 0px #ffffff;                           /*Box shadow nous permet de crée des ombres (axe x, axe y, flou, la distance de propagation et la couleur)*/
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);    /*Linear-gradient va nous permettre de faire un dégradé linéaire de couleur*/
     background-color:#ffffff;
     border:2px solid #dcdcdc;
     display:inline-block;
-    cursor:pointer;
+    cursor:pointer;                                                     /*Modifie le curseur lors du survol de l'élément*/
     color:#666666;
-    font-family:Arial;
-    font-weight:bold;
+    font-weight:bold;                                                   /*Modifie le texte en gras*/
     padding:1px 28px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
+    text-shadow:0px 1px 0px #ffffff;                                    /*Comme les box-shadow, le text-shadow sert à placer une ombres mais au texte*/
     margin-left: 180px;
 }
 
 
 
- input[type="submit"]:hover {
+ input[type="submit"]:hover {                                           /*Hover signifie au survol de l'élément*/
      	background:linear-gradient(to bottom, #f6f6f6 5%, #B0B0B0 100%);
      	background-color:#f6f6f6;
 }
 
- input[type="submit"]:active {
-
-     position:relative;
-	top:1px;
+ input[type="submit"]:active {                                          /*Active signifie à l'interaction de l'élément*/
+	    top:1px;                                                          /*Le top va faire faire un mouvement vers le haut au submit et le remettre en position initial*/
  }
 
-input:hover  {/*Input correspond à créer des contrôles interactifs pour l'utilisateur dans les formulaires WEB*/
+input:hover  {                   
 background-color : #B0D7FF;
 }
