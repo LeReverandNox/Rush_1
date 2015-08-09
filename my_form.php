@@ -12,14 +12,14 @@
             <fieldset>
                 <legend>Informations Personnelles</legend>
 
-                <label for="sexe" class="blue_border">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
-            <div id="Homme">
+                <label for="sexe" class="border">Sexe : </label>   <!-- c'est une étiquette donnée au champs saisie dans ce cas l'étiquette au champs est le "sexe"(ou nous affiche le nom de du champs de saisie ) -->
+            <div id="sexe">
                 <input type="radio" name="sexe" id="homme" class="sexe" value="Homme" checked /><label for="homme">Homme</label> <!-- input  sert  inserer(=creer) un champs de saisie ; "type" ensuite type de saisie (radio  permet de faire SEULEMENT  un choix parmi une liste de possibilités); "Name" donne un nom de él'lèment du formulaire; "value" prépremplie le champs avec une valeur -->
                 <input type="radio" name="sexe" id="femme" class="sexe" value="Femme" /><label for="femme">Femme</label> <!-- inserer un champs de saisie de type radio seulement 1 choix parmi une liste défini pour nom comme element sexe avec comme choix femme -->
                 <br /><br />
             </div>
 
-                <label for="civilite" class="blue_border">Civilité : </label> <!-- civilité est le nom de l'étiquette du champs de saisie -->
+                <label for="civilite" class="border">Civilité : </label> <!-- civilité est le nom de l'étiquette du champs de saisie -->
                 <select class="civilite" name="civilite" id="civilite"> <!-- balise select c'est une liste à choix multiple pour nom civilité a l'élèment -->
                     <option value="m">M.</option>  <!-- la balise option nous donne les choix possible "M. Mme Mlle." -->
                     <option value="mme">Mme.</option>
@@ -28,19 +28,19 @@
 
                 <br /><br />
 
-                <label for="nom" class="no_border">Nom : </label>  <!--Label "Nom" est le nom de l'étiquette du champs de saisie  -->
+                <label for="nom" class="border">Nom : </label>  <!--Label "Nom" est le nom de l'étiquette du champs de saisie  -->
                 <input type="text" name="nom" id="nom" minlength=2 /> <!-- créer un champs de saisie de type text avec une zone de texte pour nom de l'élèment "nom" -->
 
                 <br /><br />
 
     
-                <label for="prenom" class="blue_border">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
-            <div class="Prenom">
-               <input type="text" name="prenom" id="prenom" minlength=2 />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
+                <label for="prenom" class="border">Prenom : </label> <!--Label "Prénom" sur l'étiquette du champs de saisie-->
+            <div class="blue_border">
+               <input type="text" name="prenom" id="blue_border" minlength=2 />  <!-- creer un champs de saisie de type text avec une saisie de texte pour nom de l'élèment prenom -->
             </div>           
                 <br /><br />
 
-                <label for="date_de_naissance" class="no_border">Date de naissance : </label> <!-- label "date de naissance" sur l'étiquette du champs de saisie -->
+                <label for="date_de_naissance" class="border">Date de naissance : </label> <!-- label "date de naissance" sur l'étiquette du champs de saisie -->
                 <input type="date" name="date_de_naissance" id="date_de_naissance" /> <!-- creer un champs de saisie de type date avec une saisie ../../.... ou sous forme de calendrier  -->
 
                 <br /><br />
@@ -49,12 +49,12 @@
             <fieldset>
                 <legend>Contacts</legend>
 
-                <label for="email" class="no_border">Email : </label> <!-- label "email" sur l'étiquette du champs de saisie  -->
+                <label for="email" class="border">Email : </label> <!-- label "email" sur l'étiquette du champs de saisie  -->
                 <input type="email" name="email" id="email" /> <!-- crée un champs de saisie de type email avec une saisie de d'adresse mail pour nom  de l'element "email" -->
                 <br /><br />
 
-                <label for="telephone" class="blue_border">Telephone : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
-                <input type="tel" name="telephone" id="telephone" /> <!-- crée un champs de saisie de type tel avec une saisie par numéro (affiche sur smartphone le clavier numérique ) pour nom comme element "telephone" -->
+                <label for="telephone" class="border">Telephone : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
+                <input type="tel" name="telephone" id="blue_border" /> <!-- crée un champs de saisie de type tel avec une saisie par numéro (affiche sur smartphone le clavier numérique ) pour nom comme element "telephone" -->
 
                 <br /><br />
 
@@ -62,14 +62,14 @@
             <fieldset>
                 <legend>Autres</legend>
 
-                <label for="website" class="no_border">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
+                <label for="website" class="border">Site web : </label> <!-- label "telephone" sur l'étiquette du champs de saisie -->
             <div class="Site_web">
                 <input type="url" name="website" id="website" /> <!-- creer un champs de saisie de type url avec une saisie par url pour nom "website" -->
             </div>
                 <br /><br />
                 
                
-                <label for="hobbies" class="no_border">Hobbies : </label><br />
+                <label for="hobbies" class="border">Hobbies : </label><br />
                 <label for="jeuxvideo"class="right">Jeux video</label><input type="checkbox" name="hobbies" id="jeuxvideo" value="jeuxvideo" /> <!-- label "hobbies" sur letiquette de champs de saisie  -->       <!-- creer un champs de saisise de type  pour une case que l'on peut cocher ou décocher, sous le nom "hobbies " avec comme choix "jeuxvideo" "cinema" "lecture" "sport" "informatique". -->
 
                 <label for="cinema" class="right" >Cinema</label><input type="checkbox" name="hobbies" id="cinema" value="cinema" />
