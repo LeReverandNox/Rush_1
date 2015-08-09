@@ -1,7 +1,3 @@
-
-
-
-
 html { 		                     /* Indicateur qui nous indique sur quelle partie du html nous allons lancer des modifications. On va tenir les modifications entre deux accolades. */
       font-size : 12px;		     /*Font-size nous permet de modifier la police de caractère*/
       letter-spacing: 1px;     /*Letter-spacing détermine l'espace entre les caractères*/
