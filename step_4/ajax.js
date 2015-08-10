@@ -17,7 +17,7 @@ $(document).ready(function()
                 on redirige vers la page voulue */
                 {
                     $("#resultat").html("<p>Vous avez été connecté avec succès !</p>");
-                    setTimeout(function(){ document.location.href="my_navigator.php"; }, 1500)
+                    setTimeout(function(){ document.location.href="my_navigator.php"; }, 1500);
                     // Grace a setTimeout, on delay la redirection
                 }
                 else // SInon, on affiche un message d'erreur

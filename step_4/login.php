@@ -10,18 +10,13 @@
     <body>
         <fieldset>
             <legend>Connexion</legend>
-        <h1>Veuillez vous connecter :</h1>
-        <form name="formulaire" id="formulaire">
-            <p><label for="username" >Username :  </label><input type="text" id="username" name="username" /></p>
-            <p><label for="password">Password : </label><input type="password" name="password" id="password" /></p>
-            <input type="submit" id="connexion" value="Connexion"/>
-            <div id="resultat"></div><!-- On met une div vide pour afficher le message de l'ajax -->
+            <h1>Veuillez vous connecter :</h1>
+            <form name="formulaire" id="formulaire">
+                <p><label for="username" >Username :  </label><input type="text" id="username" name="username" /></p>
+                <p><label for="password">Password : </label><input type="password" name="password" id="password" /></p>
+                <input type="submit" id="connexion" value="Connexion"/>
+                <div id="resultat"></div><!-- On met une div vide pour afficher le message de l'ajax -->
+            </form>
         </fieldset>
-        </form>
     </body>
 </html>
-
-
-
-
-
